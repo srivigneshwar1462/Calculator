@@ -1,16 +1,14 @@
 package com.example.calculator
 
 import android.content.Context
-import android.os.Build
 import android.os.Bundle
-import android.os.VibrationEffect
 import android.os.Vibrator
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
-import androidx.fragment.app.Fragment as Fragment1
+
 
 
 class MainActivity : AppCompatActivity() {
