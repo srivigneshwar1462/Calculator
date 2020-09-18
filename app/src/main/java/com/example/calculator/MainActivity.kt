@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     fun onOperator(view: View){
         vibe()
 
-        if(isOperatorAdded()&&tvText.text.isNotEmpty()&&!lastOperator) {
+        if(isOperatorAdded()&&tvText.text.isNotEmpty()) {
             tvText.append((view as Button).text)
             lastOperator = true
             lastDigit = false
